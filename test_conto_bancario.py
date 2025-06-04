@@ -1,6 +1,6 @@
 import pytest
 
-from progetto_conto_bancario_esercizio_TEST.conto_bancario import ContoBancario
+from conto_bancario import ContoBancario
 
 
 @pytest.fixture   # è equivalente al def setup di unittest, è un decoratore che contiene il costruttore della classe test, o comunque altre funzioni
